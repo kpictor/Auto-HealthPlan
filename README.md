@@ -1,48 +1,36 @@
 # Auto-HealthPlan
 
-Auto-HealthPlan is a project aimed at automatically generating personalized health plans for users. This initial version of the project focuses on calculating the necessary caloric intake, protein, and fat requirements for a user based on their personal information.
+Auto-HealthPlan is a simple application that helps users create a personalized health plan based on their weight, height, age, sex, and exercise intensity. This project aims to make it easier for users to determine their caloric needs for weight gain or weight loss by providing a clear breakdown of macronutrient recommendations.
 
-## Overview
+## Update: GUI and Executable Release
 
-The main goal of Auto-HealthPlan is to provide users with a customized health plan that takes into account their individual needs and preferences. This initial version serves as a foundation for future improvements and additions to the project.
+As of today's update, the application now includes a Graphical User Interface (GUI) for improved usability. The GUI makes it easier for users to input their information and view the results.
+
+Additionally, we have released an executable version of Auto-HealthPlan for Windows. This allows users to run the application without installing Python or any dependencies.
 
 ## Features
 
-- Calculate necessary caloric intake for weight loss
-- Determine protein and fat requirements
-- User-friendly input for personal information
+- Easy-to-use GUI for inputting personal information
+- Calculates BMI (Body Mass Index)
+- Determines caloric intake for weight gain and weight loss
+- Provides macronutrient breakdown (protein, fat, and carbs) for both weight gain and weight loss plans
 
-## Getting Started
+## How to Use
 
-### Prerequisites
-
-- Python 3.x
-
-### Installation
-
-1. Clone the repository:
-
-`git clone https://github.com/yourusername/Auto-HealthPlan.git`
-
-2. Change the directory to Auto-HealthPlan:
-
-`cd Auto-HealthPlan`
-
-
-3. Run the `Automation.py` script:
-
-
-4. Follow the prompts to input your personal information, and the script will provide you with your recommended daily caloric intake, protein, and fat requirements.
+1. Download the latest executable release for your platform (currently available for Windows).
+2. Launch the application by double-clicking the executable file.
+3. Input your weight (kg), height (cm), age, exercise intensity (无/久坐/低/中/高), and sex (男/女) into the corresponding fields.
+4. Click the "Calculate" button to generate your personalized health plan.
 
 ## Future Improvements
 
-This initial version lays the groundwork for future enhancements to Auto-HealthPlan. Potential features and improvements include:
+- Add support for additional platforms (macOS and Linux)
+- Localize the application for other languages
+- Implement additional features, such as meal planning and exercise suggestions
 
-- Expanding nutrient calculations (e.g., carbohydrates, vitamins, minerals)
-- Incorporating exercise recommendations
-- Generating meal plans with recipes and grocery lists
-- Adding a graphical user interface (GUI) for easier interaction
-- Implementing machine learning algorithms to improve recommendations
+## Disclaimer
+
+This application is intended for informational purposes only and should not be considered professional medical advice. Always consult a healthcare professional before making changes to your diet or exercise routine.
 
 ## Contributing
 
