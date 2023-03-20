@@ -1,8 +1,8 @@
 weight = int(input('体重 (kg): '))
 height = int(input('身高 (cm): '))
-age = int(input('年龄: '))
-intensity = input('强度: ')
-sex = input('性别: ')
+age = int(input('年龄（阿拉伯数字）: '))
+intensity = input('运动强度（低/中/高）: ')
+sex = input('性别（男/女）: ')
 
 BMI = (weight / (height * height)) * 10000
 print(f"BMI = {round(BMI)}")
@@ -41,6 +41,6 @@ proteinloss = (loss * 0.2) // 4
 fatloss = (loss * 0.35) // 9
 carbsloss = (loss * 0.45) // 4
 
-print(f"你应该吃 {gain} 卡路里来增重，你需要{proteingain}g蛋白质，{fatgain}g脂肪和{carbsgain}g碳水化合物")
-print(f"你应该吃 {loss} 卡路里来减重，你需要{proteinloss}g蛋白质，{fatloss}g脂肪和{carbsloss}g碳水化合物")
+print(f"你应该摄入 {gain} 卡路里来增重，这包含{proteingain}g蛋白质，{fatgain}g脂肪和{carbsgain}g碳水化合物")
+print(f"你应该摄入 {loss} 卡路里来减重，这包含{proteinloss}g蛋白质，{fatloss}g脂肪和{carbsloss}g碳水化合物")
 
