@@ -1,7 +1,7 @@
 weight = int(input('体重 (kg): '))
 height = int(input('身高 (cm): '))
 age = int(input('年龄（阿拉伯数字）: '))
-intensity = input('运动强度（低/中/高）: ')
+intensity = input('运动强度（无/久坐/低/中/高）: ')
 sex = input('性别（男/女）: ')
 
 BMI = (weight / (height * height)) * 10000
