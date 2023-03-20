@@ -40,6 +40,3 @@ Contributions are welcome! Please feel free to submit issues, fork the repositor
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- This README is based on the code provided in the initial version of the Auto-HealthPlan Python script.
